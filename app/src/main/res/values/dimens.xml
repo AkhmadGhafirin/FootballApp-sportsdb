@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_20">20sp</dimen>
+    <dimen name="space_0">0dp</dimen>
+    <dimen name="space_10">10dp</dimen>
+    <dimen name="space_5">5dp</dimen>
+    <dimen name="space_20">20dp</dimen>
+    <dimen name="line">0.1dp</dimen>
+    <dimen name="space_1">1dp</dimen>
+    <dimen name="space_50">50dp</dimen>
+    <dimen name="space_80">80dp</dimen>
+    <dimen name="space_100">100dp</dimen>
+    <dimen name="text_50">50sp</dimen>
+    <dimen name="text_30">30sp</dimen>
+    <dimen name="space_25">25dp</dimen>
+    <dimen name="text_15">15sp</dimen>
+    <dimen name="text_18">18sp</dimen>
+</resources>

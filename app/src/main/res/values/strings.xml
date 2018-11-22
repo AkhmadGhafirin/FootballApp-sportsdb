@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">FootballApp</string>
+    <string name="date_dummy">Sat, 23 Aug 2018</string>
+    <string name="club_dummy">Barcelona</string>
+    <string name="vs_label">VS</string>
+    <string name="score_dummy">1</string>
+    <string name="goals_label">Goals</string>
+    <string name="shots_label">Shots</string>
+    <string name="keeper_label">Goal Keeper</string>
+    <string name="lineups_label">Lineups</string>
+    <string name="midfield_label">Midfield</string>
+    <string name="defense_label">Defense</string>
+    <string name="forward_label">Forward</string>
+    <string name="substitutes_label">Substitutes</string>
+    <string name="next_label">Next Match</string>
+    <string name="last_label">Last Match</string>
+</resources>
