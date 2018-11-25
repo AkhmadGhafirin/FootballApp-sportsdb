@@ -2,6 +2,7 @@ package com.example.cascer.footballapp.app.injection
 
 import android.content.Context
 import com.example.cascer.footballapp.app.App
+import com.example.cascer.footballapp.data.db.DBHelper
 import dagger.Module
 import dagger.Provides
 import io.reactivex.disposables.CompositeDisposable
@@ -19,4 +20,8 @@ class AppModule {
 
     @Provides
     fun provideCompositeDisposable(): CompositeDisposable = CompositeDisposable()
+
+    @Provides
+    @Singleton
+    fun provideDBHelper(context: Context): DBHelper = DBHelper(context)
 }

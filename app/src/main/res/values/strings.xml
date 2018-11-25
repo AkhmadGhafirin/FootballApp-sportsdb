@@ -14,4 +14,9 @@
     <string name="substitutes_label">Substitutes</string>
     <string name="next_label">Next Match</string>
     <string name="last_label">Last Match</string>
+    <string name="teams_label">Teams</string>
+    <string name="favorite_label">Favorite</string>
+    <string name="past_label">Past</string>
+    <string name="empty_label">Oops...</string>
+    <string name="empty_message">Data is empty...</string>
 </resources>

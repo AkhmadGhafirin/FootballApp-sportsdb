@@ -6,9 +6,10 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/white"
-        tools:context=".ui.detail.DetailMatchActivity">
+        tools:context=".ui.main.match.detail.DetailMatchActivity">
 
-    <RelativeLayout android:layout_width="match_parent"
+    <RelativeLayout android:id="@+id/row_detail"
+                    android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
         <ProgressBar android:layout_width="wrap_content"

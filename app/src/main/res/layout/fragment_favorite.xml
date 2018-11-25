@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/swipe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <RelativeLayout android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+            <LinearLayout android:id="@+id/row_empty"
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:gravity="center"
+                          android:padding="@dimen/space_10"
+                          android:orientation="vertical"
+                          android:visibility="invisible">
+
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_gravity="center"
+                          android:gravity="center"
+                          android:textSize="@dimen/text_50"
+                          android:textColor="@color/colorPrimaryDark"
+                          android:text="@string/empty_label"/>
+
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_gravity="center"
+                          android:gravity="center"
+                          android:textSize="@dimen/text_18"
+                          android:textColor="@color/colorPrimaryDark"
+                          android:text="@string/empty_message"/>
+            </LinearLayout>
+
+            <android.support.v7.widget.RecyclerView
+                    android:id="@+id/rv_favorite"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clipToPadding="false"
+                    android:padding="@dimen/space_5"/>
+        </RelativeLayout>
+    </android.support.v4.widget.SwipeRefreshLayout>
+</LinearLayout>

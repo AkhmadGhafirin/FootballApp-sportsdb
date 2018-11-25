@@ -14,9 +14,6 @@ import java.io.InputStream
 
 @GlideModule
 class GlideModule : AppGlideModule() {
-    override fun applyOptions(context: Context, builder: GlideBuilder) {
-        super.applyOptions(context, builder)
-    }
 
     override fun registerComponents(context: Context, glide: Glide, registry: Registry) {
         val okHttpClient: OkHttpClient = UnsafeOkHttpClient.getUnsafeOkHttpClient()
