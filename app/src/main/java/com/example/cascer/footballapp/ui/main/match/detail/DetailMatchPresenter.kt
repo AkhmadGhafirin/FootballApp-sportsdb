@@ -27,7 +27,7 @@ class DetailMatchPresenter
         getHome(data.idHomeTeam, data.idAwayTeam)
     }
 
-    private fun getHome(idHome: String?, idAway: String?) {
+     fun getHome(idHome: String?, idAway: String?) {
         compositeDisposable.add(
             api.getTeamDetail(idHome)
                 .map { team -> team.teamsItems }
@@ -41,7 +41,7 @@ class DetailMatchPresenter
         )
     }
 
-    private fun getAway(idAway: String?, data: List<TeamDetailItem>?) {
+    fun getAway(idAway: String?, data: List<TeamDetailItem>?) {
         urlLogoHome = data?.get(0)?.strTeamBadge
         compositeDisposable.add(
             api.getTeamDetail(idAway)
@@ -90,7 +90,7 @@ class DetailMatchPresenter
                 )
             }
             mView?.showMessage("Added to Favorite")
-        } catch (e: SQLiteConstraintException) {
+        } catch (e: Throwable) {
             mView?.showMessage(e.localizedMessage)
         }
     }
